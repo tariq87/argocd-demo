@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: gcr.io/google-samples/gb-frontend
+        image: https://hub.docker.com/r/corelab/gb-frontend
         ports:
         - containerPort: 80
